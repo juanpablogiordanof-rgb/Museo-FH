@@ -1,0 +1,9 @@
+Poné aquí las imágenes de las obras (JPG, PNG o WebP).
+
+- Tamaño recomendado: el lado mayor de 1600 px como máximo (las más grandes
+  se reducen automáticamente, pero tardan más en cargar).
+- Una carpeta por sala ayuda a ordenarse, por ejemplo:
+    imagenes/sala-1-1/obra-1.jpg
+- En contenido.json, la obra la referencia con una ruta relativa:
+    "imagen": "imagenes/sala-1-1/obra-1.jpg"
+- Si "imagen" queda vacío (""), el cuadro muestra "Imagen pendiente".

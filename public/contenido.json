@@ -1,0 +1,316 @@
+{
+  "museo": {
+    "titulo": "La religión y las religiones",
+    "lema": "Un mismo anhelo, muchos caminos",
+    "subtitulo": "Museo virtual · Formación Humana 3A"
+  },
+  "interfaz": {
+    "botonEntrar": "Entrar al museo",
+    "botonContinuar": "Continuar el recorrido",
+    "instruccionesTitulo": "Cómo recorrer el museo",
+    "instrucciones": [
+      {
+        "tecla": "W A S D / Flechas",
+        "accion": "Caminar"
+      },
+      {
+        "tecla": "Mouse",
+        "accion": "Mirar alrededor"
+      },
+      {
+        "tecla": "Shift",
+        "accion": "Caminar más rápido"
+      },
+      {
+        "tecla": "Clic (cerca de un cuadro)",
+        "accion": "Leer su cédula"
+      },
+      {
+        "tecla": "1 a 6",
+        "accion": "Ir directo a cada sala"
+      },
+      {
+        "tecla": "0",
+        "accion": "Volver al vestíbulo"
+      },
+      {
+        "tecla": "M",
+        "accion": "Mostrar / ocultar el mapa"
+      },
+      {
+        "tecla": "Esc",
+        "accion": "Pausar y liberar el mouse"
+      }
+    ],
+    "imagenPendiente": "Imagen pendiente",
+    "pistaClic": "Clic para leer",
+    "cerrar": "Cerrar",
+    "preguntasTitulo": "Preguntas para pensar",
+    "cedulasTitulo": "Cédula",
+    "mapaEstasEn": "Estás en"
+  },
+  "vestibulo": {
+    "titulo": "Vestíbulo",
+    "texto": "Pendiente: texto de bienvenida a la exposición."
+  },
+  "salas": [
+    {
+      "id": "sala-1-1",
+      "numero": "1.1",
+      "titulo": "La religión",
+      "color": "#C0392B",
+      "obras": [
+        {
+          "titulo": "Obra 1 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 1 de la sala 1.1. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        },
+        {
+          "titulo": "Obra 2 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 2 de la sala 1.1. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        },
+        {
+          "titulo": "Obra 3 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 3 de la sala 1.1. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        }
+      ],
+      "cedulas": [
+        {
+          "titulo": "Cédula 1 (pendiente)",
+          "texto": "Pendiente: texto explicativo 1 de la sala 1.1 «La religión».",
+          "pendiente": true
+        },
+        {
+          "titulo": "Cédula 2 (pendiente)",
+          "texto": "Pendiente: texto explicativo 2 de la sala 1.1 «La religión».",
+          "pendiente": true
+        }
+      ],
+      "preguntas": [
+        "Pregunta 1 de la sala 1.1 (pendiente)",
+        "Pregunta 2 de la sala 1.1 (pendiente)",
+        "Pregunta 3 de la sala 1.1 (pendiente)"
+      ]
+    },
+    {
+      "id": "sala-1-2",
+      "numero": "1.2",
+      "titulo": "Las religiones son un instrumento de salvación",
+      "color": "#D68910",
+      "obras": [
+        {
+          "titulo": "Obra 1 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 1 de la sala 1.2. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        },
+        {
+          "titulo": "Obra 2 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 2 de la sala 1.2. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        },
+        {
+          "titulo": "Obra 3 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 3 de la sala 1.2. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        }
+      ],
+      "cedulas": [
+        {
+          "titulo": "Cédula 1 (pendiente)",
+          "texto": "Pendiente: texto explicativo 1 de la sala 1.2 «Las religiones son un instrumento de salvación».",
+          "pendiente": true
+        },
+        {
+          "titulo": "Cédula 2 (pendiente)",
+          "texto": "Pendiente: texto explicativo 2 de la sala 1.2 «Las religiones son un instrumento de salvación».",
+          "pendiente": true
+        }
+      ],
+      "preguntas": [
+        "Pregunta 1 de la sala 1.2 (pendiente)",
+        "Pregunta 2 de la sala 1.2 (pendiente)",
+        "Pregunta 3 de la sala 1.2 (pendiente)"
+      ]
+    },
+    {
+      "id": "sala-1-3",
+      "numero": "1.3",
+      "titulo": "Dos grandes tipos de religiones",
+      "color": "#1E8449",
+      "obras": [
+        {
+          "titulo": "Obra 1 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 1 de la sala 1.3. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        },
+        {
+          "titulo": "Obra 2 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 2 de la sala 1.3. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        },
+        {
+          "titulo": "Obra 3 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 3 de la sala 1.3. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        }
+      ],
+      "cedulas": [
+        {
+          "titulo": "Cédula 1 (pendiente)",
+          "texto": "Pendiente: texto explicativo 1 de la sala 1.3 «Dos grandes tipos de religiones».",
+          "pendiente": true
+        },
+        {
+          "titulo": "Cédula 2 (pendiente)",
+          "texto": "Pendiente: texto explicativo 2 de la sala 1.3 «Dos grandes tipos de religiones».",
+          "pendiente": true
+        }
+      ],
+      "preguntas": [
+        "Pregunta 1 de la sala 1.3 (pendiente)",
+        "Pregunta 2 de la sala 1.3 (pendiente)",
+        "Pregunta 3 de la sala 1.3 (pendiente)"
+      ]
+    },
+    {
+      "id": "sala-1-4",
+      "numero": "1.4",
+      "titulo": "Distintas concepciones",
+      "color": "#2471A3",
+      "obras": [
+        {
+          "titulo": "Obra 1 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 1 de la sala 1.4. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        },
+        {
+          "titulo": "Obra 2 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 2 de la sala 1.4. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        },
+        {
+          "titulo": "Obra 3 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 3 de la sala 1.4. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        }
+      ],
+      "cedulas": [
+        {
+          "titulo": "Cédula 1 (pendiente)",
+          "texto": "Pendiente: texto explicativo 1 de la sala 1.4 «Distintas concepciones».",
+          "pendiente": true
+        },
+        {
+          "titulo": "Cédula 2 (pendiente)",
+          "texto": "Pendiente: texto explicativo 2 de la sala 1.4 «Distintas concepciones».",
+          "pendiente": true
+        }
+      ],
+      "preguntas": [
+        "Pregunta 1 de la sala 1.4 (pendiente)",
+        "Pregunta 2 de la sala 1.4 (pendiente)",
+        "Pregunta 3 de la sala 1.4 (pendiente)"
+      ]
+    },
+    {
+      "id": "sala-1-5",
+      "numero": "1.5",
+      "titulo": "El valor de las religiones",
+      "color": "#7D3C98",
+      "obras": [
+        {
+          "titulo": "Obra 1 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 1 de la sala 1.5. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        },
+        {
+          "titulo": "Obra 2 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 2 de la sala 1.5. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        },
+        {
+          "titulo": "Obra 3 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 3 de la sala 1.5. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        }
+      ],
+      "cedulas": [
+        {
+          "titulo": "Cédula 1 (pendiente)",
+          "texto": "Pendiente: texto explicativo 1 de la sala 1.5 «El valor de las religiones».",
+          "pendiente": true
+        },
+        {
+          "titulo": "Cédula 2 (pendiente)",
+          "texto": "Pendiente: texto explicativo 2 de la sala 1.5 «El valor de las religiones».",
+          "pendiente": true
+        }
+      ],
+      "preguntas": [
+        "Pregunta 1 de la sala 1.5 (pendiente)",
+        "Pregunta 2 de la sala 1.5 (pendiente)",
+        "Pregunta 3 de la sala 1.5 (pendiente)"
+      ]
+    },
+    {
+      "id": "sala-final",
+      "numero": "Sala final",
+      "titulo": "Conclusiones",
+      "color": "#B9770E",
+      "obras": [
+        {
+          "titulo": "Obra 1 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 1 de la Sala final. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        },
+        {
+          "titulo": "Obra 2 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 2 de la Sala final. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        },
+        {
+          "titulo": "Obra 3 (pendiente)",
+          "nota": "Pendiente: cédula de la obra 3 de la Sala final. Autor, fecha, técnica y una breve explicación de su relación con el tema de la sala.",
+          "imagen": "",
+          "pendiente": true
+        }
+      ],
+      "cedulas": [
+        {
+          "titulo": "Cédula 1 (pendiente)",
+          "texto": "Pendiente: texto explicativo 1 de la Sala final «Conclusiones».",
+          "pendiente": true
+        },
+        {
+          "titulo": "Cédula 2 (pendiente)",
+          "texto": "Pendiente: texto explicativo 2 de la Sala final «Conclusiones».",
+          "pendiente": true
+        }
+      ],
+      "preguntas": [
+        "Pregunta 1 de la Sala final (pendiente)",
+        "Pregunta 2 de la Sala final (pendiente)",
+        "Pregunta 3 de la Sala final (pendiente)"
+      ]
+    }
+  ]
+}

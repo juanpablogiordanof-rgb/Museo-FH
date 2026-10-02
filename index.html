@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museo virtual · La religión y las religiones</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="escena"></div>
+
+    <div id="mira" hidden></div>
+    <div id="pista" hidden></div>
+    <div id="aviso-sala" aria-live="polite"></div>
+
+    <aside id="mapa" hidden>
+      <canvas id="mapa-canvas"></canvas>
+      <div id="mapa-etiqueta"><span id="mapa-estas"></span><strong id="mapa-sala"></strong></div>
+    </aside>
+
+    <section id="inicio" class="capa">
+      <div class="tarjeta">
+        <div id="cargando" class="cargando"><span></span></div>
+        <div id="inicio-contenido" hidden>
+          <p id="inicio-subtitulo" class="subtitulo"></p>
+          <h1 id="inicio-titulo"></h1>
+          <p id="inicio-lema" class="lema"></p>
+          <h2 id="inicio-instr-titulo"></h2>
+          <dl id="inicio-instrucciones" class="instrucciones"></dl>
+          <button id="boton-entrar" type="button"></button>
+        </div>
+        <p id="inicio-error" class="error" hidden></p>
+      </div>
+    </section>
+
+    <section id="panel" class="capa" hidden>
+      <article class="tarjeta panel-tarjeta" role="dialog" aria-modal="true" aria-labelledby="panel-titulo">
+        <p id="panel-sala" class="panel-sala"></p>
+        <h2 id="panel-titulo"></h2>
+        <figure id="panel-figura" hidden>
+          <img id="panel-imagen" alt="" />
+          <div id="panel-pendiente" class="pendiente" hidden></div>
+        </figure>
+        <div id="panel-texto"></div>
+        <button id="panel-cerrar" type="button"></button>
+      </article>
+    </section>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
