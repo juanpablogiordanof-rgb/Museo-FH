@@ -100,6 +100,7 @@ html, body {
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.45);
   z-index: 5;
+  pointer-events: none;
   transition: transform 0.12s, background 0.12s;
 }
 #mira.activa { transform: scale(1.8); background: var(--acento); }

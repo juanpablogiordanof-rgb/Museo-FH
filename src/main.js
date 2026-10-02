@@ -88,14 +88,38 @@ async function iniciar() {
   let estado = 'inicio';
   const teclas = new Set();
 
+  // Si el navegador no permite capturar el mouse (p. ej. dentro de un iframe),
+  // se pasa a "modo arrastre": se mira arrastrando con el botón presionado.
+  let modoArrastre = false;
+  let yaBloqueado = false;
+  const recorriendo = () => controles.isLocked || (modoArrastre && estado === 'recorrido');
+
+  function activarArrastre() {
+    modoArrastre = true;
+    estado = 'recorrido';
+    ficha.cerrar();
+    $('inicio').classList.add('oculto');
+    $('hud').classList.remove('oculto');
+  }
+
+  function falloBloqueo() {
+    if (yaBloqueado) mostrarPausa();
+    else activarArrastre();
+  }
+
   function bloquear() {
+    if (modoArrastre || !document.body.requestPointerLock) {
+      activarArrastre();
+      return;
+    }
     try {
       const promesa = document.body.requestPointerLock();
-      promesa?.catch?.(() => mostrarPausa());
+      promesa?.catch?.(falloBloqueo);
     } catch {
-      mostrarPausa();
+      falloBloqueo();
     }
   }
+  document.addEventListener('pointerlockerror', falloBloqueo);
 
   function mostrarPausa() {
     estado = 'pausa';
@@ -105,6 +129,7 @@ async function iniciar() {
   }
 
   controles.addEventListener('lock', () => {
+    yaBloqueado = true;
     estado = 'recorrido';
     ficha.cerrar();
     $('inicio').classList.add('oculto');
@@ -133,6 +158,32 @@ async function iniciar() {
     if (e.button === 0 && controles.isLocked && apuntado) abrirFicha(apuntado);
   });
 
+  // Modo arrastre: girar la vista arrastrando; un clic sin arrastrar abre la ficha.
+  const lienzo = renderer.domElement;
+  const giro = new THREE.Euler(0, 0, 0, 'YXZ');
+  let arrastre = null;
+  lienzo.addEventListener('pointerdown', (e) => {
+    if (!modoArrastre || estado !== 'recorrido' || e.button !== 0) return;
+    arrastre = { x: e.clientX, y: e.clientY, recorrido: 0 };
+    lienzo.setPointerCapture(e.pointerId);
+  });
+  lienzo.addEventListener('pointermove', (e) => {
+    if (!arrastre) return;
+    const dx = e.clientX - arrastre.x;
+    const dy = e.clientY - arrastre.y;
+    arrastre.x = e.clientX;
+    arrastre.y = e.clientY;
+    arrastre.recorrido += Math.abs(dx) + Math.abs(dy);
+    giro.setFromQuaternion(camara.quaternion);
+    giro.y -= dx * 0.004;
+    giro.x = Math.max(-1.45, Math.min(1.45, giro.x - dy * 0.004));
+    camara.quaternion.setFromEuler(giro);
+  });
+  lienzo.addEventListener('pointerup', () => {
+    if (arrastre && arrastre.recorrido < 6 && apuntado) abrirFicha(apuntado);
+    arrastre = null;
+  });
+
   // Teletransporte con fundido (teclas 1–9 para las salas, 0 para el vestíbulo).
   let enTransito = false;
   function teletransportar(orden) {
@@ -158,6 +209,10 @@ async function iniciar() {
       return;
     }
     if (estado === 'inicio') return;
+    if (modoArrastre && e.code === 'Escape' && estado === 'recorrido') {
+      mostrarPausa();
+      return;
+    }
     const n = /^(?:Digit|Numpad)(\d)$/.exec(e.code);
     if (n) {
       teletransportar(Number(n[1]));
@@ -190,7 +245,7 @@ async function iniciar() {
     derecha.crossVectors(adelante, camara.up).normalize();
 
     objetivo.set(0, 0, 0);
-    if (controles.isLocked) {
+    if (recorriendo()) {
       const f = tecla('KeyW', 'ArrowUp') - tecla('KeyS', 'ArrowDown');
       const r = tecla('KeyD', 'ArrowRight') - tecla('KeyA', 'ArrowLeft');
       objetivo.addScaledVector(adelante, f).addScaledVector(derecha, r);
@@ -219,7 +274,7 @@ async function iniciar() {
 
   function apuntar() {
     let nuevo = null;
-    if (controles.isLocked) {
+    if (recorriendo()) {
       rayo.setFromCamera(centro, camara);
       const golpe = rayo.intersectObjects(objetivosRayo, false)[0];
       nuevo = golpe?.object.userData.ficha ?? null;
