@@ -1,0 +1,7 @@
+Coloca aquí las imágenes de las obras (JPG, PNG o WebP, máximo 1600 px de lado).
+
+En contenido.json, cada obra indica su imagen con una ruta relativa, por ejemplo:
+  "imagen": "imagenes/sala-1-1/obra-1.jpg"
+
+Si "imagen" está vacío o el archivo no existe, el museo muestra un marco con
+el texto "Imagen pendiente".

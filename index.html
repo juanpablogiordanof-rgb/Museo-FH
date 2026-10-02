@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museo virtual</title>
+    <script type="module" src="./src/main.js"></script>
+  </head>
+  <body>
+    <div id="escena"></div>
+
+    <div id="cargando" class="capa">
+      <div class="girador"></div>
+      <p id="cargando-error" class="oculto"></p>
+    </div>
+
+    <div id="inicio" class="capa oculto">
+      <div class="inicio-caja">
+        <p id="inicio-subtitulo" class="inicio-subtitulo"></p>
+        <h1 id="inicio-titulo"></h1>
+        <p id="inicio-lema" class="inicio-lema"></p>
+        <div class="inicio-franjas" id="inicio-franjas"></div>
+        <h2 id="inicio-controles-titulo"></h2>
+        <dl id="inicio-controles" class="controles"></dl>
+        <button id="inicio-boton" class="boton" type="button"></button>
+      </div>
+    </div>
+
+    <div id="hud" class="oculto">
+      <div id="mira"></div>
+      <p id="pista" class="oculto"></p>
+      <div id="minimapa">
+        <canvas id="minimapa-lienzo"></canvas>
+        <p id="minimapa-sala"></p>
+      </div>
+    </div>
+
+    <div id="ficha" class="capa oculto" role="dialog" aria-modal="true">
+      <article class="ficha-caja">
+        <div class="ficha-acento"></div>
+        <p class="ficha-sala"></p>
+        <h2 class="ficha-titulo"></h2>
+        <div class="ficha-imagen"></div>
+        <div class="ficha-texto"></div>
+        <button class="boton ficha-cerrar" type="button"></button>
+      </article>
+    </div>
+
+    <div id="fundido"></div>
+  </body>
+</html>

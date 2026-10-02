@@ -1,0 +1,314 @@
+{
+  "museo": {
+    "titulo": "La religión y las religiones",
+    "lema": "Un mismo anhelo, muchos caminos",
+    "subtitulo": "Museo virtual · Formación Humana 3A",
+    "bienvenida": "Texto de bienvenida pendiente. Aquí irá una breve presentación de la exposición y de su recorrido.",
+    "creditos": "Créditos pendientes: curso, integrantes y año."
+  },
+  "ui": {
+    "botonEntrar": "Entrar al museo",
+    "botonContinuar": "Continuar el recorrido",
+    "tituloControles": "Cómo recorrer el museo",
+    "controles": [
+      {
+        "tecla": "W A S D  /  Flechas",
+        "accion": "Caminar"
+      },
+      {
+        "tecla": "Mouse",
+        "accion": "Mirar alrededor"
+      },
+      {
+        "tecla": "Shift",
+        "accion": "Caminar más rápido"
+      },
+      {
+        "tecla": "Clic",
+        "accion": "Abrir la cédula de una obra (acércate primero)"
+      },
+      {
+        "tecla": "1 – 6",
+        "accion": "Ir directo a cada sala"
+      },
+      {
+        "tecla": "0",
+        "accion": "Volver al vestíbulo"
+      },
+      {
+        "tecla": "Esc",
+        "accion": "Pausar y liberar el mouse"
+      }
+    ],
+    "vestibulo": "Vestíbulo",
+    "recorrido": "Recorrido",
+    "comienzo": "Comienza el recorrido",
+    "estasEn": "Estás en",
+    "tituloPreguntas": "Preguntas para pensar",
+    "imagenPendiente": "Imagen pendiente",
+    "pistaObra": "Clic para ver la cédula",
+    "pistaPanel": "Clic para leer",
+    "cerrar": "Volver al recorrido",
+    "errorCarga": "No se pudo cargar el contenido del museo."
+  },
+  "salas": [
+    {
+      "id": "1.1",
+      "etiqueta": "Sala 1.1",
+      "titulo": "La religión",
+      "color": "#C0563B",
+      "obras": [
+        {
+          "titulo": "Obra 1 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 2 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 3 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 4 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        }
+      ],
+      "cedulas": [
+        {
+          "titulo": "Cédula 1 — pendiente",
+          "texto": "Texto pendiente. Aquí irá la explicación de esta parte del tema, con las ideas principales de la sala."
+        },
+        {
+          "titulo": "Cédula 2 — pendiente",
+          "texto": "Texto pendiente. Aquí irá la explicación de esta parte del tema, con las ideas principales de la sala."
+        }
+      ],
+      "preguntas": [
+        "Pregunta 1 — pendiente",
+        "Pregunta 2 — pendiente",
+        "Pregunta 3 — pendiente"
+      ]
+    },
+    {
+      "id": "1.2",
+      "etiqueta": "Sala 1.2",
+      "titulo": "Las religiones son un instrumento de salvación",
+      "color": "#C9971C",
+      "obras": [
+        {
+          "titulo": "Obra 1 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 2 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 3 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 4 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        }
+      ],
+      "cedulas": [
+        {
+          "titulo": "Cédula 1 — pendiente",
+          "texto": "Texto pendiente. Aquí irá la explicación de esta parte del tema, con las ideas principales de la sala."
+        },
+        {
+          "titulo": "Cédula 2 — pendiente",
+          "texto": "Texto pendiente. Aquí irá la explicación de esta parte del tema, con las ideas principales de la sala."
+        }
+      ],
+      "preguntas": [
+        "Pregunta 1 — pendiente",
+        "Pregunta 2 — pendiente",
+        "Pregunta 3 — pendiente"
+      ]
+    },
+    {
+      "id": "1.3",
+      "etiqueta": "Sala 1.3",
+      "titulo": "Dos grandes tipos de religiones",
+      "color": "#1E8A86",
+      "obras": [
+        {
+          "titulo": "Obra 1 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 2 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 3 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 4 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        }
+      ],
+      "cedulas": [
+        {
+          "titulo": "Cédula 1 — pendiente",
+          "texto": "Texto pendiente. Aquí irá la explicación de esta parte del tema, con las ideas principales de la sala."
+        },
+        {
+          "titulo": "Cédula 2 — pendiente",
+          "texto": "Texto pendiente. Aquí irá la explicación de esta parte del tema, con las ideas principales de la sala."
+        }
+      ],
+      "preguntas": [
+        "Pregunta 1 — pendiente",
+        "Pregunta 2 — pendiente",
+        "Pregunta 3 — pendiente"
+      ]
+    },
+    {
+      "id": "1.4",
+      "etiqueta": "Sala 1.4",
+      "titulo": "Distintas concepciones",
+      "color": "#3F51A8",
+      "obras": [
+        {
+          "titulo": "Obra 1 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 2 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 3 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 4 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        }
+      ],
+      "cedulas": [
+        {
+          "titulo": "Cédula 1 — pendiente",
+          "texto": "Texto pendiente. Aquí irá la explicación de esta parte del tema, con las ideas principales de la sala."
+        },
+        {
+          "titulo": "Cédula 2 — pendiente",
+          "texto": "Texto pendiente. Aquí irá la explicación de esta parte del tema, con las ideas principales de la sala."
+        }
+      ],
+      "preguntas": [
+        "Pregunta 1 — pendiente",
+        "Pregunta 2 — pendiente",
+        "Pregunta 3 — pendiente"
+      ]
+    },
+    {
+      "id": "1.5",
+      "etiqueta": "Sala 1.5",
+      "titulo": "El valor de las religiones",
+      "color": "#4C9A4A",
+      "obras": [
+        {
+          "titulo": "Obra 1 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 2 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 3 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 4 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        }
+      ],
+      "cedulas": [
+        {
+          "titulo": "Cédula 1 — pendiente",
+          "texto": "Texto pendiente. Aquí irá la explicación de esta parte del tema, con las ideas principales de la sala."
+        },
+        {
+          "titulo": "Cédula 2 — pendiente",
+          "texto": "Texto pendiente. Aquí irá la explicación de esta parte del tema, con las ideas principales de la sala."
+        }
+      ],
+      "preguntas": [
+        "Pregunta 1 — pendiente",
+        "Pregunta 2 — pendiente",
+        "Pregunta 3 — pendiente"
+      ]
+    },
+    {
+      "id": "final",
+      "etiqueta": "Sala final",
+      "titulo": "Conclusiones",
+      "color": "#8A3F9E",
+      "obras": [
+        {
+          "titulo": "Obra 1 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 2 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 3 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        },
+        {
+          "titulo": "Obra 4 — título pendiente",
+          "nota": "Nota pendiente: autor, fecha, procedencia y una breve explicación de por qué esta obra está en la sala.",
+          "imagen": ""
+        }
+      ],
+      "cedulas": [
+        {
+          "titulo": "Cédula 1 — pendiente",
+          "texto": "Texto pendiente. Aquí irá la explicación de esta parte del tema, con las ideas principales de la sala."
+        },
+        {
+          "titulo": "Cédula 2 — pendiente",
+          "texto": "Texto pendiente. Aquí irá la explicación de esta parte del tema, con las ideas principales de la sala."
+        }
+      ],
+      "preguntas": [
+        "Pregunta 1 — pendiente",
+        "Pregunta 2 — pendiente",
+        "Pregunta 3 — pendiente"
+      ]
+    }
+  ]
+}
